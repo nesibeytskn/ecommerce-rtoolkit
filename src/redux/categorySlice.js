@@ -9,11 +9,11 @@ export const categorySlice = createSlice({
   initialState,
   reducers: {
     setCategories: (state, action) => {
-      state.categories = action.payload.categories
+      state.categories = action.payload.categories;
     },
   },
 });
 
 export default categorySlice.reducer;
 
-export const { setCategories } = categorySlice.actions
+export const { setCategories } = categorySlice.actions;

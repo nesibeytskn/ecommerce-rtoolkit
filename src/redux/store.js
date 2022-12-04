@@ -5,7 +5,7 @@ import categorySlice from "./categorySlice";
 
 export default configureStore({
   reducer: {
-    authSlice: authSlice,
-    categorySlice: categorySlice,
+    authState: authSlice,
+    categoryState: categorySlice,
   },
 });

@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 
-import { removeToken } from '../../redux/authSlice'
+import { removeToken} from '../../redux/authSlice'
 
 function Header() {
   const authState = useSelector((state) => state.authState);
